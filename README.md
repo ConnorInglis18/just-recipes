@@ -1,3 +1,11 @@
+To Start Backend:
+git pull https://github.com/amphardos/486Recipes.git
+cd api
+export FLASK_APP=search.py
+python3 -m flask run
+(url http://127.0.0.1:5000/getRecipes/?q=YOURQUERYHERE)
+(you may need to pip install Flask-Script and flask-cors)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
