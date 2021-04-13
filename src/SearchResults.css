@@ -1,0 +1,45 @@
+.searchResultsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchBar {
+  padding: 0px;
+  margin: 0px;
+  font-size: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+  background: #f6d044;
+}
+
+.searchForm {
+  width: 100%;
+  height: 58px;
+}
+
+.searchInput {
+  height: 58px;
+  width: 602px;
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.75));
+
+  padding-left: 10px;
+  font-family: "IBM Plex Sans Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 47px;
+
+  color: #1a1a1a;
+}
+
+.searchResults {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0px;
+  display: inline-block;
+  text-align: center;
+}

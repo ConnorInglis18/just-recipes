@@ -1,0 +1,133 @@
+.RecipeCard h1 {
+  font-family: IBM Plex Sans Condensed;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 62px;
+  margin: 10px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+
+  color: #000000;
+}
+
+li {
+  margin-top: 5px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 10px;
+
+  color: #000000;
+}
+
+.RecipeCard h2 {
+  font-family: IBM Plex Sans Condensed;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 31px;
+  margin: 10px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+
+  color: #000000;
+}
+
+.RecipeCard p {
+  margin-top: 5px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.RecipeCard {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7d044;
+  min-height: 100vh;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  height: 110px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.topLeft {
+  text-align: left;
+  padding-left: 40px;
+}
+
+.backButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  background-color: #f9f9f9;
+  width: 300px;
+  height: 60px;
+  margin-top: 20px;
+  font-family: IBM Plex Sans Condensed;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 23px;
+
+  color: #000000;
+
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.authorInfo {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  margin-top: 5px;
+  font-family: IBM Plex Sans Condensed;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 23px;
+
+  color: #000000;
+  text-decoration: underline;
+  margin-bottom: 24px;
+  padding-left: 5px;
+}
+
+.content {
+  display: flex;
+}
+
+.leftPanel {
+  text-align: left;
+  width: 33%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.recipeImage {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+.rightPanel {
+  text-align: left;
+  background-color: #f9f9f9;
+  width: 67%;
+  margin: 20px;
+  padding: 20px;
+}
